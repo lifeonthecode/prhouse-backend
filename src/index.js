@@ -11,7 +11,7 @@ const postRouter = require('./routes/post.route');
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:5173", "https://prhouse-app-frontend.vercel.app"],
+    origin: ["http://localhost:5173", "https://prhouse-app-frontend.vercel.app", "https://prhouse-app-frontend.onrender.com"],
     credentials: true,
 }));
 app.use(cookieParser());
